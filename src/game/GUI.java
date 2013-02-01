@@ -27,7 +27,6 @@ public class GUI extends JPanel implements KeyListener, MouseListener,
 
 	public void drawGUI() {
 
-		Main main = new Main();
 		paintT.schedule(paintTask, 16, 16);
 		f.setSize(765, 535);
 		f.setVisible(true);
